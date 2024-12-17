@@ -45,7 +45,7 @@ namespace p24 {
 
         void push_back(T val) {
             // TODO
-            node* new_node = new node(val, tail);
+            node* new_node = new node(val, nullptr);
             if (sz==0) {
                 head = tail = new_node;
             } else {
